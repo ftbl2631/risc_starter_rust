@@ -2,7 +2,11 @@
 name = "gd32vf103_starter_toolchain"
 version = "0.1.0"
 edition = "2021"
-
+authors = ["Fab <kali.fab001@gmail.com>"]
+description = "start guide for riscv and rust"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+riscv-rt = "0.10.0"
+panic-halt = "0.2.0"
+tock-registers = "0.8.1"
